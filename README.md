@@ -9,7 +9,7 @@ Here is a example of how to use it.
 In your RN projects.
 
 /****************************
-* One dependency is needed. (EventEmitter, from React Native itself)
+One dependency is needed. (EventEmitter, from React Native itself)
 *****************************/
 
 
@@ -17,7 +17,7 @@ EventEmitter = require('EventEmitter'),
 NPMPICKER = require("react-native-picker-purejs"),
 
 /***************************
-* Init Functions need to be set up in your file. Picker call back will be those functions.
+Init Functions need to be set up in your file. Picker call back will be those functions.
 ****************************/
 
 
@@ -52,7 +52,7 @@ NPMPICKER = require("react-native-picker-purejs"),
     }
     
 /***************
-* In your JSX code, add this, remember props are important, has to have them.
+In your JSX code, add this, remember props are important, has to have them.
 ****************/
 
 
