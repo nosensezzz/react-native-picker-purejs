@@ -11,12 +11,16 @@ In your RN projects.
 /****************************
 * One dependency is needed. (EventEmitter, from React Native itself)
 *****************************/
+
+
 EventEmitter = require('EventEmitter'),
 NPMPICKER = require("react-native-picker-purejs"),
 
 /***************************
 * Init Functions need to be set up in your file. Picker call back will be those functions.
 ****************************/
+
+
     componentWillMount(){
     	this.eventEmitter = new EventEmitter();
     }
@@ -50,11 +54,13 @@ NPMPICKER = require("react-native-picker-purejs"),
 /***************
 * In your JSX code, add this, remember props are important, has to have them.
 ****************/
+
+
   <NPMPICKER
-				_ref={"test"}
-				options={["1", "2", "3"]}
-				value={"1"}
-				event={self.eventEmitter} /> 
+	_ref={"test"}
+	options={["1", "2", "3"]}
+	value={"1"}
+	event={self.eventEmitter} /> 
 			
 			
 ## very easy to use, right?
