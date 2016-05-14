@@ -1,0 +1,19 @@
+{
+  "name": "react-native-picker-purejs",
+  "version": "1.0.3",
+  "description": "react native picker component, written by pure javascript, no need link any object-c file.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-picker"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "author": "nosensezzz <nosensezzz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {}
+}
