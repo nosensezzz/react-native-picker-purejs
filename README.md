@@ -51,5 +51,5 @@ In your RN projects.
    
 			
 ## About the styles
-Put the <Picker> at your out most <View> component, it default sets to 1/3 height and touch the bottom, but you can always set yourself include the code, if you work on rn project, it will be very easy to set up it.
+Put the PickerComponent at your out most ViewComponent, it default sets to 1/3 height and touch the bottom, but you can always set yourself include the code, if you work on rn project, it will be very easy to set up it.
 
