@@ -8,18 +8,8 @@ Here is a example of how to use it.
 
 In your RN projects.
 
-/****************************
-One dependency is needed. (EventEmitter, from React Native itself)
-*****************************/
-
-
-EventEmitter = require('EventEmitter'),
-NPMPICKER = require("react-native-picker-purejs"),
-
-/***************************
-Init Functions need to be set up in your file. Picker call back will be those functions.
-****************************/
-
+    EventEmitter = require('EventEmitter'),
+    NPMPICKER = require("react-native-picker-purejs"),
 
     componentWillMount(){
     	this.eventEmitter = new EventEmitter();
@@ -50,18 +40,16 @@ Init Functions need to be set up in your file. Picker call back will be those fu
       // done button clicked.
     	console.log(param);
     }
-    
-/***************
-In your JSX code, add this, remember props are important, has to have them.
-****************/
-
-
-  <NPMPICKER
-	_ref={"test"}
-	options={["1", "2", "3"]}
-	value={"1"}
-	event={self.eventEmitter} /> 
+    return (  
+    ...
+    ...
+    <NPMPICKER
+    _ref={"test"}
+    options={["1", "2", "3"]}
+    value={"1"}
+    event={self.eventEmitter} /> );
+   
 			
-			
-## very easy to use, right?
+## About the styles
+Put the <Picker> at your out most <View> component, it default sets to 1/3 height and touch the bottom, but you can always set yourself include the code, if you work on rn project, it will be very easy to set up it.
 
