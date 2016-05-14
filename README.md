@@ -1,6 +1,11 @@
 # react-native-picker-purejs
 npm module - react native picker 
 
+## how to install
+under your rn project folder path
+run
+npm install react-native-picker-purejs --save
+
 ## Description
 Easy to use, free to use.
 
