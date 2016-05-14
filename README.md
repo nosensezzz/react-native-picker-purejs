@@ -58,3 +58,6 @@ In your RN projects.
 ## About the styles
 Put the PickerComponent at your out most ViewComponent, it default sets to 1/3 height and touch the bottom, but you can always set yourself include the code, if you work on rn project, it will be very easy to set up it.
 
+## Screen shot
+
+https://cloud.githubusercontent.com/assets/1654228/15271062/b779b7ac-1a04-11e6-928a-c3e7686b186a.png
