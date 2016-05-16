@@ -9,6 +9,7 @@ npm install react-native-picker-purejs --save
 ## Description
 Easy to use, free to use.
 
+<<<<<<< HEAD
 ## Props
 # _ref
 this one is the referance name to your component, all picker component will listen to same event, you have to use _ref to decide which component your are using.
@@ -26,6 +27,8 @@ default value...
 # event
 must have property to support the component work, it's a instance of EventEmitter, and your listeners should use the same instance too. 
 
+=======
+>>>>>>> origin/master
 Here is a example of how to use it.
 
 In your RN projects.
@@ -45,10 +48,14 @@ In your RN projects.
     }
 
     toggle(){
+<<<<<<< HEAD
     	var self = this;
         if(ref == self.props._ref){
             this.setState({display: !self.state.display});
         }
+=======
+    	this.eventEmitter.emit('toggle');
+>>>>>>> origin/master
     }
 
     pickerEventCancel(){
@@ -70,7 +77,10 @@ In your RN projects.
     ...
     <NPMPICKER
     _ref={"test"}
+<<<<<<< HEAD
     offsetTop={60}
+=======
+>>>>>>> origin/master
     options={["1", "2", "3"]}
     value={"1"}
     event={self.eventEmitter} /> );
